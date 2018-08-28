@@ -1,0 +1,54 @@
+html, body, #main-view {
+	height: 100%;
+	margin: 0;
+}
+
+div.author-video-wrapper {
+	height: 100%;
+	/* This background closely resembles the background in the author videos */
+	background-color: #0a0a0f;
+}
+
+#author-video {
+	height: 100%;
+	width: auto;
+	margin: 0 auto;
+}
+
+#author-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.author-list-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#close-video {
+	position: absolute;
+  right: 24px;
+  top: 24px;
+  width: 32px;
+  height: 32px;
+  background-color: #0a0a0f;
+}
+
+#close-video:before, #close-video:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #fff;
+}
+
+#close-video:before {
+  transform: rotate(45deg);
+}
+
+#close-video:after {
+  transform: rotate(-45deg);
+}

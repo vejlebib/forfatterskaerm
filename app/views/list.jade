@@ -1,0 +1,8 @@
+// Template for the author list
+
+div.author-list-container
+  h2 Vælg en Forfatter
+  ul#author-list
+    each author in authors
+      li
+        a(href='#' + author.name, data-name=author.name, data-display=author.display) #{author.display}
