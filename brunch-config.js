@@ -11,9 +11,9 @@ exports.files = {
 };
 
 exports.npm = {
-	globals: {
-		$: 'jquery'
-	}
+  globals: {
+    $: 'jquery'
+  }
 }
 
 exports.plugins = {
