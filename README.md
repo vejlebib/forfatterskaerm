@@ -1,2 +1,2 @@
-# Forfatterskærm - webløsning
+# Forfatterskærm
 
