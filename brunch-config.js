@@ -6,16 +6,26 @@ exports.files = {
       'app.js': /^app/
     }
   },
-  stylesheets: {joinTo: 'app.css'},
+  stylesheets: {joinTo: {
+      'app.css': /^app/
+    }
+  },
   templates: { joinTo: 'app.js' }
 };
 
 exports.npm = {
   globals: {
-    $: 'jquery'
+    $: 'jquery',
+    jQuery: 'jquery'
   }
 }
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  babel: {presets: ['latest']},
+  sass: {
+    options: {
+      includePaths: ['./node_modules/bootstrap/scss'],
+      precision: 8
+    }
+  }
 };
