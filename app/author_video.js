@@ -22,10 +22,19 @@ exports.startAuthorVideo = function (author) {
   video.on('click touch', function(e) {
     var coordinates = getPercentageCoordinates(this, e.clientX, e.clientY);
     var button = getClickedButton(coordinates.x, coordinates.y);
+
+    // If the click wasn't on a button in the video, we have nothing to do here.
+    if (!button) {
+      return;
+    }
+
+    // The back button was clicked while loop was playing; Go back to loop.
     if (button.id === 'back' && !loopPlaying) {
       playLoop(this, author);
     }
-    else if (button && button.id !== 'back' && loopPlaying) {
+    // An answer button was clicked and we will only respond to these while
+    // loop is playing.
+    else if (button.id !== 'back' && loopPlaying) {
       playAnswer(this, author, button);
     }
   });
