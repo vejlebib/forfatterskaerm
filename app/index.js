@@ -14,7 +14,7 @@ router.on({
   '/': function() {
     $('#main-view').html(author_list);
 
-    $('ul#author-list a').click(function(e) {
+    $('#author-list a').click(function(e) {
       e.preventDefault();
       router.navigate(getBaseURL() + '/forfatter/' + $(this).data('name'), true);
     });
