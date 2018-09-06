@@ -43,6 +43,14 @@ exports.startAuthorVideo = function (author) {
   // slightly. To ahcieve the best result it's therefore configured for each
   // author and set dynamically here.
   $('.author-video-wrapper').css('background-color', author.background_color);
+
+  // Prevents download of video with a right click. The video is still easy to
+  // download, but this should prevent some. This could be combined with other
+  // solution to make it harder.
+  // See: https://stackoverflow.com/a/9756909
+  video.on('contextmenu', function() {
+    return false;
+  });
 }
 
 function getClickedButton(xPercentage, yPercentage) {
