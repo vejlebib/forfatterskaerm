@@ -1,214 +1,214 @@
 {
-	"authors": [
-		{
-			"name": "sarah_engell",
-			"display": {
+  "authors": [
+    {
+      "name": "sarah_engell",
+      "display": {
         "forename": "Sarah",
         "surname": "Engell"
       },
       "background_color": "#050810"
-		},
-		{
-			"name": "maren_uthaug",
-			"display": {
+    },
+    {
+      "name": "maren_uthaug",
+      "display": {
         "forename": "Maren",
         "surname": "Uthaug"
       },
       "background_color": "#050810"
-		},
-		{
-			"name": "peter_oevig_knudsen",
-			"display": {
+    },
+    {
+      "name": "peter_oevig_knudsen",
+      "display": {
         "forename": "Peter Øvig",
         "surname": "Knudsen"
       },
       "background_color": "#05080D"
-		},
-		{
-			"name": "anne_lise_marstrand-joergensen",
-			"display": {
+    },
+    {
+      "name": "anne_lise_marstrand-joergensen",
+      "display": {
         "forename": "Anne Lise",
         "surname": "Marstrand-Jørgensen"
       },
       "background_color": "#010005"
-		},
-		{
-			"name": "benny_andersen",
-			"display": {
+    },
+    {
+      "name": "benny_andersen",
+      "display": {
         "forename": "Benny",
         "surname": "Andersen"
       },
       "background_color": "#010001"
-		},
-		{
-			"name": "carsten_jensen",
-			"display": {
+    },
+    {
+      "name": "carsten_jensen",
+      "display": {
         "forename": "Carsten",
         "surname": "Jensen"
       },
       "background_color": "#0A0003"
-		},
-		{
-			"name": "dorthe_nors",
-			"display": {
+    },
+    {
+      "name": "dorthe_nors",
+      "display": {
         "forename": "Dorthe",
         "surname": "Nors"
       },
       "background_color": "#0A0005"
-		},
-		{
-			"name": "elsebeth_egholm",
-			"display": {
+    },
+    {
+      "name": "elsebeth_egholm",
+      "display": {
         "forename": "Elsebeth",
         "surname": "Egholm"
       },
       "background_color": "#010005"
-		},
-		{
-			"name": "helle_helle",
-			"display": {
+    },
+    {
+      "name": "helle_helle",
+      "display": {
         "forename": "Helle",
         "surname": "Helle"
       },
       "background_color": "#010205"
-		},
-		{
-			"name": "iben_mondrup",
-			"display": {
+    },
+    {
+      "name": "iben_mondrup",
+      "display": {
         "forename": "Iben",
         "surname": "Mondrup"
       },
       "background_color": "#010003"
-		},
-		{
-			"name": "ida_jessen",
-			"display": {
+    },
+    {
+      "name": "ida_jessen",
+      "display": {
         "forename": "Ida",
         "surname": "Jessen"
       },
       "background_color": "#000106"
-		},
-		{
-			"name": "jens_blendstrup",
-			"display": {
+    },
+    {
+      "name": "jens_blendstrup",
+      "display": {
         "forename": "Jens",
         "surname": "Blendstrup"
       },
       "background_color": "#000106"
-		},
-		{
-			"name": "jens_christian_groendahl",
-			"display": {
+    },
+    {
+      "name": "jens_christian_groendahl",
+      "display": {
         "forename": "Jens Christian",
         "surname": "Grøndahl"
       },
       "background_color": "#040006"
-		},
-		{
-			"name": "josefine_ottesen",
-			"display": {
+    },
+    {
+      "name": "josefine_ottesen",
+      "display": {
         "forename": "Josefine",
         "surname": "Ottesen"
       },
       "background_color": "#010009"
-		},
-		{
-			"name": "kenneth_boegh_andersen",
-			"display": {
+    },
+    {
+      "name": "kenneth_boegh_andersen",
+      "display": {
         "forename": "Kenneth Bøgh",
         "surname": "Andersen"
       },
       "background_color": "#01020C"
-		},
-		{
-			"name": "kim_fupz",
-			"display": {
+    },
+    {
+      "name": "kim_fupz",
+      "display": {
         "forename": "Kim",
         "surname": "Fupz"
       },
       "background_color": "#020005"
-		},
-		{
-			"name": "kim_leine",
-			"display": {
+    },
+    {
+      "name": "kim_leine",
+      "display": {
         "forename": "Kim",
         "surname": "Leine"
       },
       "background_color": "#000104"
-		},
-		{
-			"name": "kirsten_hammann",
-			"display": {
+    },
+    {
+      "name": "kirsten_hammann",
+      "display": {
         "forename": "Kirsten",
         "surname": "Hammann"
       },
       "background_color": "#060000"
-		},
-		{
-			"name": "kirsten_thorup",
-			"display": {
+    },
+    {
+      "name": "kirsten_thorup",
+      "display": {
         "forename": "Kirsten",
         "surname": "Thorup"
       },
       "background_color": "#020006"
-		},
-		{
-			"name": "leif_davidsen",
-			"display": {
+    },
+    {
+      "name": "leif_davidsen",
+      "display": {
         "forename": "Leif",
         "surname": "Davidsen"
       },
       "background_color": "#010007"
-		},
-		{
-			"name": "merete_pryds_helle",
-			"display": {
+    },
+    {
+      "name": "merete_pryds_helle",
+      "display": {
         "forename": "Mette Pryds",
         "surname": "Helle"
       },
       "background_color": "#010001"
-		},
-		{
-			"name": "peter_hoeg",
-			"display": {
+    },
+    {
+      "name": "peter_hoeg",
+      "display": {
         "forename": "Peter",
         "surname": "Hoeg"
       },
       "background_color": "#020102"
-		},
-		{
-			"name": "stine_pilgaard",
-			"display": {
+    },
+    {
+      "name": "stine_pilgaard",
+      "display": {
         "forename": "Stine",
         "surname": "Pilgaard"
       },
       "background_color": "#010001"
-		},
-		{
-			"name": "svend_aage_madsen",
-			"display": {
+    },
+    {
+      "name": "svend_aage_madsen",
+      "display": {
         "forename": "Svend Åge",
         "surname": "Madsen"
       },
       "background_color": "#000106"
-		},
-		{
-			"name": "soeren_ulrik_thomsen",
-			"display": "Søren Ulrik Thomsen",
-			"display": {
+    },
+    {
+      "name": "soeren_ulrik_thomsen",
+      "display": "Søren Ulrik Thomsen",
+      "display": {
         "forename": "Søren Ulrik",
         "surname": "Thomsen"
       },
       "background_color": "#060000"
-		},
-		{
-			"name": "tom_buk_swienty",
-			"display": {
+    },
+    {
+      "name": "tom_buk_swienty",
+      "display": {
         "forename": "Tom Buk",
         "surname": "Swienty"
       },
       "background_color": "#010001"
-		},
+    },
     {
       "name": "naja_marie_aidt",
       "display": {
@@ -217,5 +217,5 @@
       },
       "background_color": "#010007"
     }
-	]
+  ]
 }
