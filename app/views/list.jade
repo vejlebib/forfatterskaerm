@@ -1,12 +1,14 @@
 // Template for the author list
 
-div#author-list.container-fluid
-  h1.my-4 Vælg en Forfatter
-  div.row
-    each author in authors
-      div.col-sm-4
-        div.card.mb-3
-          div.card-body
-            h5.card-title #{author.display}
-            p.card-text With supporting text below as a natural lead-in to additional content.
-            a.btn.btn-primary(href='#', data-name=author.name, data-display=author.display) Spørg #{author.display}
+div#author-list-wrapper.bg-gradient-dark
+  div#author-list.container
+    h1.py-4.text-light Velkommen til Forfatterskærmen
+    div.row.justify-content-center
+      each author in authors
+        div.col-lg-4.col-md-6.col-12.col
+          div.card.bg-light.border-dark
+            img.card-img-top(src='/forfattere/' + author.name + '/thumbnail.png')
+            div.card-body
+              h5.card-title #{author.display.forename}<br>#{author.display.surname}
+              // p.card-text With supporting text below as a natural lead-in to additional content.
+              a.btn.btn-dark(href='#', data-name=author.name) Spørg #{author.display.forename}

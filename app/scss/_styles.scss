@@ -5,12 +5,14 @@ html, body, #main-view {
 
 #author-list {
 	text-align: center;
+
+	div.col {
+		padding-bottom: 15px;
+	}
 }
 
 div.author-video-wrapper {
   height: 100%;
-  /* This background closely resembles the background in the author videos */
-  background-color: #0a0a0f;
   overflow: hidden;
 }
 
@@ -45,3 +47,4 @@ div.author-video-wrapper {
 #close-video:after {
   transform: rotate(-45deg);
 }
+
