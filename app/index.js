@@ -20,17 +20,28 @@ router.on({
     });
   },
   '/forfatter/:id': function(params) {
-    $('#main-view').html(video_tmpl({author: params.id}));
+    var author = getAuthor(params.id);
+
+    $('#main-view').html(video_tmpl({author: author}));
 
     $('#close-video').on('click touch', function(e) {
       e.preventDefault();
       router.navigate('/');
     })
 
-    author_video.startAuthorVideo(params.id);
+    author_video.startAuthorVideo(author);
   }
 }).resolve();
 
 function getBaseURL() {
   return window.location.protocol + '//' + window.location.hostname;
+}
+
+function getAuthor(name) {
+  for (let author of authors.authors) {
+    if (author.name === name) {
+      return author;
+    }
+  }
+  return false;
 }

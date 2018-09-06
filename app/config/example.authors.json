@@ -1,108 +1,221 @@
 {
-  "authors": [
+	"authors": [
+		{
+			"name": "sarah_engell",
+			"display": {
+        "forename": "Sarah",
+        "surname": "Engell"
+      },
+      "background_color": "#050810"
+		},
+		{
+			"name": "maren_uthaug",
+			"display": {
+        "forename": "Maren",
+        "surname": "Uthaug"
+      },
+      "background_color": "#050810"
+		},
+		{
+			"name": "peter_oevig_knudsen",
+			"display": {
+        "forename": "Peter Øvig",
+        "surname": "Knudsen"
+      },
+      "background_color": "#05080D"
+		},
+		{
+			"name": "anne_lise_marstrand-joergensen",
+			"display": {
+        "forename": "Anne Lise",
+        "surname": "Marstrand-Jørgensen"
+      },
+      "background_color": "#010005"
+		},
+		{
+			"name": "benny_andersen",
+			"display": {
+        "forename": "Benny",
+        "surname": "Andersen"
+      },
+      "background_color": "#010001"
+		},
+		{
+			"name": "carsten_jensen",
+			"display": {
+        "forename": "Carsten",
+        "surname": "Jensen"
+      },
+      "background_color": "#0A0003"
+		},
+		{
+			"name": "dorthe_nors",
+			"display": {
+        "forename": "Dorthe",
+        "surname": "Nors"
+      },
+      "background_color": "#0A0005"
+		},
+		{
+			"name": "elsebeth_egholm",
+			"display": {
+        "forename": "Elsebeth",
+        "surname": "Egholm"
+      },
+      "background_color": "#010005"
+		},
+		{
+			"name": "helle_helle",
+			"display": {
+        "forename": "Helle",
+        "surname": "Helle"
+      },
+      "background_color": "#010205"
+		},
+		{
+			"name": "iben_mondrup",
+			"display": {
+        "forename": "Iben",
+        "surname": "Mondrup"
+      },
+      "background_color": "#010003"
+		},
+		{
+			"name": "ida_jessen",
+			"display": {
+        "forename": "Ida",
+        "surname": "Jessen"
+      },
+      "background_color": "#000106"
+		},
+		{
+			"name": "jens_blendstrup",
+			"display": {
+        "forename": "Jens",
+        "surname": "Blendstrup"
+      },
+      "background_color": "#000106"
+		},
+		{
+			"name": "jens_christian_groendahl",
+			"display": {
+        "forename": "Jens Christian",
+        "surname": "Grøndahl"
+      },
+      "background_color": "#040006"
+		},
+		{
+			"name": "josefine_ottesen",
+			"display": {
+        "forename": "Josefine",
+        "surname": "Ottesen"
+      },
+      "background_color": "#010009"
+		},
+		{
+			"name": "kenneth_boegh_andersen",
+			"display": {
+        "forename": "Kenneth Bøgh",
+        "surname": "Andersen"
+      },
+      "background_color": "#01020C"
+		},
+		{
+			"name": "kim_fupz",
+			"display": {
+        "forename": "Kim",
+        "surname": "Fupz"
+      },
+      "background_color": "#020005"
+		},
+		{
+			"name": "kim_leine",
+			"display": {
+        "forename": "Kim",
+        "surname": "Leine"
+      },
+      "background_color": "#000104"
+		},
+		{
+			"name": "kirsten_hammann",
+			"display": {
+        "forename": "Kirsten",
+        "surname": "Hammann"
+      },
+      "background_color": "#060000"
+		},
+		{
+			"name": "kirsten_thorup",
+			"display": {
+        "forename": "Kirsten",
+        "surname": "Thorup"
+      },
+      "background_color": "#020006"
+		},
+		{
+			"name": "leif_davidsen",
+			"display": {
+        "forename": "Leif",
+        "surname": "Davidsen"
+      },
+      "background_color": "#010007"
+		},
+		{
+			"name": "merete_pryds_helle",
+			"display": {
+        "forename": "Mette Pryds",
+        "surname": "Helle"
+      },
+      "background_color": "#010001"
+		},
+		{
+			"name": "peter_hoeg",
+			"display": {
+        "forename": "Peter",
+        "surname": "Hoeg"
+      },
+      "background_color": "#020102"
+		},
+		{
+			"name": "stine_pilgaard",
+			"display": {
+        "forename": "Stine",
+        "surname": "Pilgaard"
+      },
+      "background_color": "#010001"
+		},
+		{
+			"name": "svend_aage_madsen",
+			"display": {
+        "forename": "Svend Åge",
+        "surname": "Madsen"
+      },
+      "background_color": "#000106"
+		},
+		{
+			"name": "soeren_ulrik_thomsen",
+			"display": "Søren Ulrik Thomsen",
+			"display": {
+        "forename": "Søren Ulrik",
+        "surname": "Thomsen"
+      },
+      "background_color": "#060000"
+		},
+		{
+			"name": "tom_buk_swienty",
+			"display": {
+        "forename": "Tom Buk",
+        "surname": "Swienty"
+      },
+      "background_color": "#010001"
+		},
     {
-      "name": "sarah_engell",
-      "display": "Sarah Engell"
-    },
-    {
-      "name": "anne_lise_marstrand-jørgensen",
-      "display": "Anne Lise Marstrand-Jørgensen"
-    },
-    {
-      "name": "benny_andersen",
-      "display": "Benny Andersen"
-    },
-    {
-      "name": "carsten_jensen",
-      "display": "Carsten Jensen"
-    },
-    {
-      "name": "dorthe_nors",
-      "display": "Dorthe Nors"
-    },
-    {
-      "name": "elsebeth_egholm",
-      "display": "Elsebeth Egholm"
-    },
-    {
-      "name": "helle_helle",
-      "display": "Helle Helle"
-    },
-    {
-      "name": "iben_mondrup",
-      "display": "Iben Mondrup"
-    },
-    {
-      "name": "ida_jessen",
-      "display": "Ida Jessen"
-    },
-    {
-      "name": "jens_blendstrup",
-      "display": "Jens Blendstrup"
-    },
-    {
-      "name": "jens_christian_groendahl",
-      "display": "Jens Christian Grøndahl"
-    },
-    {
-      "name": "josefine_ottesen",
-      "display": "Josefine Ottesen"
-    },
-    {
-      "name": "kenneth_boegh_andersen",
-      "display": "Kenneth Bøgh Andersen"
-    },
-    {
-      "name": "kim_fupz",
-      "display": "Kim Fupz"
-    },
-    {
-      "name": "kim_leine",
-      "display": "Kim Leine"
-    },
-    {
-      "name": "kirsten_hammann",
-      "display": "Kirsten Hammann"
-    },
-    {
-      "name": "KirstenThorup",
-      "display": "Kirsten Thorup"
-    },
-    {
-      "name": "leif_davidsen",
-      "display": "Leif Davidsen"
-    },
-    {
-      "name": "maren_uthaug",
-      "display": "Maren Uthaug"
-    },
-    {
-      "name": "merete_pryds_helle",
-      "display": "Merete Pryds Helle"
-    },
-    {
-      "name": "peter_hoeg",
-      "display": "Peter Hoeg"
-    },
-    {
-      "name": "peter_oevig_knudsen",
-      "display": "Peter Øvig Knudsen"
-    },
-    {
-      "name": "stine_pilgaard",
-      "display": "Stine Pilgaard"
-    },
-    {
-      "name": "svend_aage_madsen",
-      "display": "Svend Åge Madsen"
-    },
-    {
-      "name": "soeren_ulrik_thomsen",
-      "display": "Søren Ulrik Thomsen"
-    },
-    {
-      "name": "tom_buk_swienty",
-      "display": "Tom Buk Swienty"
+      "name": "naja_marie_aidt",
+      "display": {
+        "forename": "Naja Marie",
+        "surname": "Aidt"
+      },
+      "background_color": "#010007"
     }
-  ]
+	]
 }

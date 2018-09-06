@@ -38,6 +38,11 @@ exports.startAuthorVideo = function (author) {
       playAnswer(this, author, button);
     }
   });
+
+  // The background in author videos is not completely black and varies
+  // slightly. To ahcieve the best result it's therefore configured for each
+  // author and set dynamically here.
+  $('.author-video-wrapper').css('background-color', author.background_color);
 }
 
 function getClickedButton(xPercentage, yPercentage) {
@@ -58,7 +63,7 @@ function getPercentageCoordinates(video, x, y) {
 }
 
 function playLoop(video, author) {
-  video.src = '/forfattere/' + author + '/loop.mp4';
+  video.src = '/forfattere/' + author.name + '/loop.mp4';
   video.loop = true;
   video.load();
   video.play();
@@ -66,7 +71,7 @@ function playLoop(video, author) {
 }
 
 function playAnswer(video, author, button) {
-  video.src = '/forfattere/' + author + '/' + button.id + '.mp4';
+  video.src = '/forfattere/' + author.name + '/' + button.id + '.mp4';
   video.loop = false;
   video.load();
   video.play();
