@@ -22,8 +22,12 @@ Thumbs.db
 # NPM packages folder.
 node_modules/
 
-# Brunch output folder.
-public/
+# Ignore Brunch output folder except keep the empty author directory to help
+# document where the videoes needs to be placed.
+public/*
+!public/forfattere
+public/forfattere/*
+!public/forfattere/.gitkeep
 
 # Ignore enviroment specific config files.
 app/config/authors.json
