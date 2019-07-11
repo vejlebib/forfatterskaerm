@@ -1,6 +1,6 @@
 // Template for the author video
 
 div.author-video-wrapper
-  video#author-video.video-js(loop="loop" autoplay preload="auto")
+  video#author-video.video-js(loop="loop" autoplay preload="auto" muted)
     source(src='/forfattere/' + author.name + '/loop.mp4' type='video/mp4')
 a#close-video(href="#")

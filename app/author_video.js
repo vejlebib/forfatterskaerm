@@ -73,6 +73,7 @@ function getPercentageCoordinates(video, x, y) {
 function playLoop(video, author) {
   video.src = '/forfattere/' + author.name + '/loop.mp4';
   video.loop = true;
+  video.muted = true;
   video.load();
   video.play();
   loopPlaying = true;
@@ -81,6 +82,7 @@ function playLoop(video, author) {
 function playAnswer(video, author, button) {
   video.src = '/forfattere/' + author.name + '/' + button.id + '.mp4';
   video.loop = false;
+  video.muted = false;
   video.load();
   video.play();
   loopPlaying = false;
