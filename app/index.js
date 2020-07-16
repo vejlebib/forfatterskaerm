@@ -24,7 +24,15 @@ router.on({
     displayAuthor(author);
   },
   '/random': function() {
-    var random_author = authors[Math.floor(Math.random() * authors.length)]
+    var random_author = authors[Math.floor(Math.random() * authors.length)];
+    displayAuthor(random_author);
+  },
+  '/random/:authors': function(params) {
+    var authors = params.authors.split(',').map(author => author.trim());
+    var random_author = authors[Math.floor(Math.random() * authors.length)];
+    // In this case it's only a string passed in the URL. We need to load the
+    // author object as displayAuthor expects.
+    random_author = getAuthor(random_author);
     displayAuthor(random_author);
   }
 }).resolve();
