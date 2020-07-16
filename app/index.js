@@ -1,8 +1,8 @@
 "use strict";
 
-var authors = require('config/authors.json');
+var authors = require('config/authors.json').authors;
 var author_list_tmpl = require('views/list');
-var author_list = author_list_tmpl({authors: authors.authors});
+var author_list = author_list_tmpl({authors: authors});
 
 var video_tmpl = require('views/video');
 
@@ -21,15 +21,11 @@ router.on({
   },
   '/forfatter/:id': function(params) {
     var author = getAuthor(params.id);
-
-    $('#main-view').html(video_tmpl({author: author}));
-
-    $('#close-video').on('click touch', function(e) {
-      e.preventDefault();
-      router.navigate('/');
-    })
-
-    author_video.startAuthorVideo(author);
+    displayAuthor(author);
+  },
+  '/random': function() {
+    var random_author = authors[Math.floor(Math.random() * authors.length)]
+    displayAuthor(random_author);
   }
 }).resolve();
 
@@ -38,10 +34,21 @@ function getBaseURL() {
 }
 
 function getAuthor(name) {
-  for (let author of authors.authors) {
+  for (let author of authors) {
     if (author.name === name) {
       return author;
     }
   }
   return false;
+}
+
+function displayAuthor(author) {
+  $('#main-view').html(video_tmpl({author: author}));
+
+  $('#close-video').on('click touch', function(e) {
+    e.preventDefault();
+    router.navigate('/');
+  })
+
+  author_video.startAuthorVideo(author);
 }
